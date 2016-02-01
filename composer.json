@@ -1,0 +1,13 @@
+{
+    "name": "etudiant/appweb",
+    "description": "gestion des copies",
+    "authors": [
+        {
+            "name": "arbaa",
+            "email": "mimo2591@gmail.com"
+        }
+    ],
+    "require": {
+        "jleagle/omdb-imdb-api-client": "^0.1.0"
+    }
+}

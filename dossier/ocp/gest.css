@@ -1,0 +1,58 @@
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* il est conseillé de mettre à zéro la marge et le remplissage de l'élément body, pour tenir compte des différentes valeurs par défaut des navigateurs */
+	padding: 0;
+	text-align: center; /* ce paramétrage centre le conteneur dans les navigateurs IE 5.x. Le texte est ensuite aligné à gauche (valeur par défaut) dans le sélecteur #container */
+	color: #000000;
+}
+.oneColLiqCtrHdr #container {
+	width: 90%;  /* ce paramétrage crée un conteneur dont la largeur est 80 % de celle du navigateur */
+	background: #FFFFFF;
+	margin: 0 auto; /* les marges automatiques (et dotées d'une largeur positive) centrent la page */
+	border: 1px solid #000000;
+	text-align: left; /* ce paramétrage annule le paramètre text-align: center de l'élément body. */
+}
+.oneColLiqCtrHdr #head {
+	background: #DDDDDD; 
+	/*padding: 0 10px 0 20px; 
+	/* ce remplissage correspond à l'alignement à gauche des éléments des div qui apparaissent en dessous. Si, au lieu de texte, c'est une image qui est insérée dans l'élément #header, il est conseillé de supprimer le remplissage. */
+}
+.oneColLiqCtrHdr #head h1 {
+	margin: 0; /* la mise à zéro de la marge du dernier élément du div #header permet d'éviter une disparition de la marge (espace inexplicable entre les éléments div). Si l'élément div est entouré d'une bordure, cette précaution n'est pas nécessaire, car la bordure évite également la disparition de la marge */
+	padding: 10px 0; /* l'utilisation de remplissage, au lieu d'une marge, permet d'éloigner l'élément des bords de l'élément div */
+}
+.oneColLiqCtrHdr #mainContent {
+	padding: 0 20px; /* ne pas oublier que le remplissage est l'espace à l'intérieur du cadre de l'élément div, alors que la marge est l'espace à l'extérieur de celui-ci */
+	background: #FFFFFF;
+}
+#footer {
+	clear: both;
+	background: #c8c8c7;
+	color: #000;
+	font: 80%/160% Verdana, Arial, Helvetica, sans-serif;
+	padding: 4px;
+	text-align: center;
+}
+.oneColLiqCtrHdr #footer { 
+	padding: 0 10px; /* ce remplissage correspond à l'alignement à gauche des éléments des div qui apparaissent au-dessus. */
+	background:#DDDDDD;
+} 
+.oneColLiqCtrHdr #footer p {
+	margin: 0; /* la mise à zéro de la marge du premier élément du pied de page permet d'éviter une possible disparition de la marge (espace entre les éléments div) */
+	padding: 10px 0; /* l'utilisation d'un remplissage pour cet élément crée un espace, tout comme une marge l'aurait fait, mais en évitant le risque de disparition de la marge */
+}
+.lien {
+	padding-left:0px;
+	padding-right:0px; 
+	}
+	.button {
+	padding: 4px;
+	background: #5d7d33;
+	color: #fff;
+}
+.button2 {
+	padding: 4px;
+	background: #c0d471;
+	color: #0b0b0b;
+}
